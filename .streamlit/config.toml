@@ -1,0 +1,17 @@
+# Dark navy / neon-blue theme + public "viewer" mode.
+# Put this file in a folder named .streamlit next to app.py.
+
+[theme]
+base = "dark"
+primaryColor = "#00B4FF"
+backgroundColor = "#050B1A"
+secondaryBackgroundColor = "#0B1730"
+textColor = "#FFFFFF"
+font = "sans serif"
+
+[client]
+# Hides developer menu items (Deploy, settings, rerun/edit options) from visitors.
+toolbarMode = "viewer"
+
+[browser]
+gatherUsageStats = false
